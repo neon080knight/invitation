@@ -17,7 +17,7 @@
     box-sizing: border-box;
     width: 100%;
     min-width: 300px;
-    padding: 31px 15px 210px;
+    padding: 31px 15px 50px;
 
     background-image: url("../images/background.png");
     background-color: #000000;
@@ -32,7 +32,7 @@
     font-style: normal;
     font-size: 20px;
     font-weight: 400;
-    font-family: "Old Classic", "Arial", sans-serif;
+    font-family: "Monotype Corsiva", "Arial", sans-serif;
   }
 
   .names {
@@ -42,7 +42,7 @@
     line-height: 1;
     font-size: 64px;
     font-weight: 400;
-    font-family: "Old Classic", "Arial", sans-serif;
+    font-family: "Monotype Corsiva", "Arial", sans-serif;
   }
 
  .name {
@@ -95,5 +95,5 @@
     line-height: 1;
     font-size: 24px;
     font-weight: 400;
-    font-family: "Old Classic", "Arial", sans-serif;
+    font-family: "Monotype Corsiva", "Arial", sans-serif;
   }
