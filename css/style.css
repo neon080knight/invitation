@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: "Old Classic";
+    src: url("../fonts/ofont.ru_Old Classic.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    position: relative;
+    text-align: center;
+    
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 300px;
+    padding: 31px 15px 210px;
+
+    background-image: url("../images/background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .chapter {
+    margin-top: 50px;
+
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Old Classic", "Arial", sans-serif;
+  }
+
+  .names {
+    margin-top: 20px;
+
+    font-style: normal;
+    line-height: 1;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: "Old Classic", "Arial", sans-serif;
+  }
+
+ .name {
+    display: block;
+  }
+
+  .irina {
+    margin-top: 20px;
+  }
+
+  .date {
+    margin-top: 50px;
+
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Times New Roman", sans-serif;
+  }
+
+  .text {
+    padding: 10px 30px;
+
+    font-size: 14px;
+  }
+
+  .timing {
+    display: flex;
+
+    font-size: 14px;
+  }
+
+  .timing:nth-child(n+2) {
+    margin-top: 20px;
+  }
+
+  .time {
+    text-align: left;
+  }
+
+  .description {
+    margin-left: 20px;
+
+    text-align: left;
+  }
+
+  .footer {
+    margin-top: 20px;
+
+    font-style: normal;
+    line-height: 1;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Old Classic", "Arial", sans-serif;
+  }
